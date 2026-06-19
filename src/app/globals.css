@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-ar: "Tajawal", system-ui, sans-serif;
+  --font-pixel: "Silkscreen", ui-monospace, monospace;
+}
+
+/* ===== Dark theme (default) ===== */
+:root,
+:root.dark {
+  color-scheme: dark;
+  --bg: 6 6 12;
+  --bg-elev: 14 14 24;
+  --fg: 232 226 250;
+  --fg-muted: 196 181 253;
+  --fg-dim: 148 138 184;
+  --line: 88 70 140;
+  --accent-lav: 183 148 244;
+  --accent-violet: 139 92 246;
+  --accent-indigo: 99 102 241;
+  --accent-blue: 96 165 250;
+  --accent-rose: 244 182 213;
+}
+
+/* ===== Light theme ===== */
+:root.light {
+  color-scheme: light;
+  --bg: 250 247 255;
+  --bg-elev: 255 255 255;
+  --fg: 32 24 56;
+  --fg-muted: 90 70 138;
+  --fg-dim: 138 124 168;
+  --line: 200 188 232;
+  --accent-lav: 124 58 237;
+  --accent-violet: 109 40 217;
+  --accent-indigo: 67 56 202;
+  --accent-blue: 37 99 235;
+  --accent-rose: 219 39 119;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--fg));
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+html[dir="rtl"] body {
+  font-family: var(--font-ar);
+}
+
+/* Atmospheric gradients — recolor automatically with theme */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(60% 50% at 15% 10%, rgb(var(--accent-violet) / 0.18), transparent 70%),
+    radial-gradient(50% 50% at 85% 30%, rgb(var(--accent-indigo) / 0.14), transparent 70%),
+    radial-gradient(70% 50% at 50% 95%, rgb(var(--accent-blue) / 0.10), transparent 70%);
+  transition: opacity 0.4s ease;
+}
+:root.light body::before {
+  opacity: 0.55;
+}
+
+/* Selection */
+::selection {
+  background: rgb(var(--accent-violet) / 0.45);
+  color: white;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: rgb(var(--bg)); }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(var(--accent-indigo)), rgb(var(--accent-violet)));
+  border-radius: 999px;
+  border: 2px solid rgb(var(--bg));
+}
+
+/* Glass */
+.glass {
+  background: rgb(var(--bg-elev) / 0.55);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgb(var(--line) / 0.25);
+}
+.glass-strong {
+  background: rgb(var(--bg-elev) / 0.75);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgb(var(--line) / 0.32);
+}
+:root.light .glass {
+  background: rgb(255 255 255 / 0.65);
+  border: 1px solid rgb(var(--line) / 0.45);
+  box-shadow: 0 4px 30px -10px rgb(124 58 237 / 0.12);
+}
+:root.light .glass-strong {
+  background: rgb(255 255 255 / 0.85);
+  border: 1px solid rgb(var(--line) / 0.55);
+  box-shadow: 0 8px 40px -8px rgb(124 58 237 / 0.18);
+}
+
+/* Hairline divider */
+.hairline {
+  background: linear-gradient(90deg, transparent, rgb(var(--accent-lav) / 0.35), transparent);
+  height: 1px;
+}
+
+/* Faint grid */
+.bg-grid {
+  background-image:
+    linear-gradient(rgb(var(--accent-violet) / 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--accent-violet) / 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Pixel grid — sharper, smaller, used as accent */
+.bg-pixel {
+  background-image:
+    linear-gradient(rgb(var(--accent-lav) / 0.10) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--accent-lav) / 0.10) 1px, transparent 1px);
+  background-size: 8px 8px;
+}
+
+/* Pixel border — gives 8-bit edge to cards */
+.pixel-border {
+  position: relative;
+  box-shadow:
+    0 0 0 1px rgb(var(--accent-lav) / 0.25),
+    inset 0 0 0 1px rgb(var(--accent-violet) / 0.08);
+}
+
+/* Caret blink */
+.caret::after {
+  content: "▍";
+  margin-inline-start: 2px;
+  animation: blink 1.05s steps(2, jump-none) infinite;
+  color: rgb(var(--accent-lav));
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+/* Scanline overlay (terminal flavour) */
+.scanlines {
+  position: relative;
+}
+.scanlines::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    180deg,
+    transparent 0px,
+    transparent 2px,
+    rgb(var(--accent-lav) / 0.025) 3px,
+    transparent 4px
+  );
+  mix-blend-mode: overlay;
+}
+
+/* Focus rings */
+:focus-visible {
+  outline: 2px solid rgb(var(--accent-lav));
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Pixel art utility — keeps SVG/canvas pixels crisp */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  shape-rendering: crispEdges;
+}
+
+/* Magnetic-button helper */
+.magnetic {
+  transition: transform 0.25s cubic-bezier(.2,.8,.2,1);
+}
+
+/* RTL adjustments */
+html[dir="rtl"] .ltr-only { display: none; }
+html[dir="ltr"] .rtl-only { display: none; }
