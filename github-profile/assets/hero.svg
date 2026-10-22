@@ -32,7 +32,7 @@
   <path d="M56 39h19m10 0h19" stroke="#A48EEA" stroke-width="3"/>
   <rect x="117" y="34" width="7" height="7" fill="#6CA1EB"/>
   <text x="136" y="43" font-family="monospace" font-size="12" letter-spacing="1.8" fill="#9DAAD0">HEAIKYORAKU / PROFILE</text>
-  <text x="55" y="113" font-family="monospace" font-size="15" fill="#89A9FB" letter-spacing="2.2">&gt; identity<span class="cursor">_</span></text>
+  <text x="55" y="113" font-family="monospace" font-size="15" fill="#89A9FB" letter-spacing="2.2">&gt; identity<tspan class="cursor">_</tspan></text>
   <g font-family="monospace" font-weight="700" letter-spacing="-2">
     <text x="52" y="178" font-size="62" fill="#F1F0FF">HESSAH</text>
     <text x="52" y="240" font-size="62" fill="#BAA8FF">ALMUJALLY</text>
