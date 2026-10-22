@@ -74,8 +74,8 @@ AI Engineer in Riyadh, Saudi Arabia. My work spans **applied machine learning, g
 <tr><td><a href="./work/dhallaty.md"><b>Dhallaty</b></a></td><td>AI Product · Computer Vision · Startup Engineering</td></tr>
 <tr><td><a href="./work/easepark.md"><b>EasePark / Smart Parking</b></a></td><td>Arduino · IoT · Sensors · Embedded Prototype</td></tr>
 <tr><td><a href="https://github.com/Heaikyoraku/hessah-portfolio"><b>Portfolio Web Experiment</b></a></td><td>Next.js · TypeScript · React</td></tr>
-<tr><td><b>AI for Cybersecurity</b></td><td>ML · Feature Selection · Data Preprocessing</td></tr>
-<tr><td><b>Smart Manufacturing Analytics</b></td><td>Industrial Data · OEE · Analytics</td></tr>
+<tr><td><a href="./work/cybersecurity-ml.md"><b>AI for Cybersecurity</b></a></td><td>ML · Feature Selection · Data Preprocessing</td></tr>
+<tr><td><a href="./work/industrial-analytics.md"><b>Smart Manufacturing Analytics</b></a></td><td>Industrial Data · OEE · Analytics</td></tr>
 </table>
 </details>
 
@@ -90,7 +90,7 @@ AI Engineer in Riyadh, Saudi Arabia. My work spans **applied machine learning, g
   <sub>Backend · Transactions · SQL · Testing · Agents</sub>
 </td>
 <td width="50%" valign="top">
-  <b>AGENT CONTENT WRITER</b><br>
+  <a href="./work/agent-content-writer.md"><b>AGENT CONTENT WRITER ↗</b></a><br>
   <sub>Private workbench for GitHub-activity-driven Arabic content drafts.</sub><br><br>
   <img src="https://skillicons.dev/icons?i=py,githubactions,docker&theme=dark" height="31" alt="Python GitHub Actions Docker"><br>
   <sub>API Integration · Claude · GitHub Actions · Automation</sub>
