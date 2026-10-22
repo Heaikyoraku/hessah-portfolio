@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Hessah AlMujally — AI Engineer; indigo generative-art editorial cover"/>
+  <img src="./assets/hero.svg" width="100%" alt="Hessah AlMujally — dark violet enchantment-inspired pixel and ASCII art"/>
   <p>
-    <a href="https://www.linkedin.com/in/hessahmalmujally/"><img src="https://img.shields.io/badge/LinkedIn-111327?style=flat-square&logo=linkedin&logoColor=BBAAFF" alt="LinkedIn" /></a>
-    <a href="mailto:hessahmalmujally@gmail.com"><img src="https://img.shields.io/badge/Email-111327?style=flat-square&logo=gmail&logoColor=BBAAFF" alt="Email" /></a>
-    <a href="https://github.com/Heaikyoraku?tab=repositories"><img src="https://img.shields.io/badge/All_repositories-111327?style=flat-square&logo=github&logoColor=BBAAFF" alt="All repositories" /></a>
+    <a href="https://www.linkedin.com/in/hessahmalmujally/"><img src="https://img.shields.io/badge/LinkedIn-0D0B16?style=flat-square&logo=linkedin&logoColor=AF8EE0" alt="LinkedIn" /></a>
+    <a href="mailto:hessahmalmujally@gmail.com"><img src="https://img.shields.io/badge/Email-0D0B16?style=flat-square&logo=gmail&logoColor=AF8EE0" alt="Email" /></a>
+    <a href="https://github.com/Heaikyoraku?tab=repositories"><img src="https://img.shields.io/badge/All_repositories-0D0B16?style=flat-square&logo=github&logoColor=AF8EE0" alt="All repositories" /></a>
   </p>
 </div>
 
-AI Engineer working across **machine learning, multimodal systems, and generative AI**. My experience connects applied research at KACST, product development, and software engineering.
+AI graduate working across **machine learning, multimodal AI, and generative systems**. Research at KACST, startup experience, and hands-on projects. Currently sharpening my AI engineering skills, with a growing interest in data systems.
 
 ### Selected work
 
@@ -56,18 +56,18 @@ AI Engineer working across **machine learning, multimodal systems, and generativ
   </tr>
 </table>
 
-### Toolkit
+### Tools & stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,postgres,fastapi,docker,git,githubactions,vscode&theme=dark&perline=10" alt="Python, PyTorch, TensorFlow, scikit-learn, PostgreSQL, FastAPI, Docker, Git, GitHub Actions, VS Code"/>
   <p>
-    <img src="https://img.shields.io/badge/OpenAI-17182E?style=flat-square&logo=openai&logoColor=F4F3FA" alt="OpenAI" />
-    <img src="https://img.shields.io/badge/Claude-17182E?style=flat-square&logo=anthropic&logoColor=D6B6E5" alt="Claude" />
-    <img src="https://img.shields.io/badge/Hugging_Face-17182E?style=flat-square&logo=huggingface&logoColor=FFD570" alt="Hugging Face" />
-    <img src="https://img.shields.io/badge/Gemini-17182E?style=flat-square&logo=googlegemini&logoColor=AAA7FF" alt="Gemini" />
-    <img src="https://img.shields.io/badge/LangChain-17182E?style=flat-square&logo=langchain&logoColor=ACA6ED" alt="LangChain" />
+    <img src="https://img.shields.io/badge/OpenAI-0D0B16?style=flat-square&logo=openai&logoColor=F4F3FA" alt="OpenAI" />
+    <img src="https://img.shields.io/badge/Claude-0D0B16?style=flat-square&logo=anthropic&logoColor=BCA3D8" alt="Claude" />
+    <img src="https://img.shields.io/badge/Hugging_Face-0D0B16?style=flat-square&logo=huggingface&logoColor=FFD570" alt="Hugging Face" />
+    <img src="https://img.shields.io/badge/Gemini-0D0B16?style=flat-square&logo=googlegemini&logoColor=B3A0E3" alt="Gemini" />
+    <img src="https://img.shields.io/badge/LangChain-0D0B16?style=flat-square&logo=langchain&logoColor=ACA6ED" alt="LangChain" />
   </p>
-  <sub>Exploring further: Codex · Claude Code · Databricks · MLOps</sub>
+  <sub>Currently learning: Databricks · data systems · MLOps · Codex / Claude Code workflows</sub>
 </div>
 
 <details>
