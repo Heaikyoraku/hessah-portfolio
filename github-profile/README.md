@@ -4,7 +4,7 @@
 
 ### Hello, I'm Hessah.
 
-An **Artificial Intelligence Sciences graduate** interested in building AI systems and understanding the engineering behind them. My background spans machine learning and generative AI, and I'm continuing to develop my skills through hands-on projects, with a growing interest in software, data, and ML engineering.
+**Artificial Intelligence Sciences graduate and aspiring AI engineer.** I'm interested in practical AI systems, from model experiments to working applications. I learn by building, and I'm developing stronger foundations in software, data, and ML engineering.
 
 ### Tech stack
 
