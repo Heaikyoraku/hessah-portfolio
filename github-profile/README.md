@@ -1,22 +1,32 @@
 <div align="center">
   <img src="./assets/hero.svg" width="100%" alt="Hessah AlMujally — AI Engineer / Research / Systems">
   <p>
-    <a href="https://www.linkedin.com/in/hessahmalmujally/"><img src="https://img.shields.io/badge/LinkedIn-111821?style=for-the-badge&logo=linkedin&logoColor=A6F8D2" alt="LinkedIn"></a>
-    <a href="mailto:hessahmalmujally@gmail.com"><img src="https://img.shields.io/badge/Email-111821?style=for-the-badge&logo=gmail&logoColor=BDA5FA" alt="Email"></a>
+    <a href="https://www.linkedin.com/in/hessahmalmujally/"><img src="https://img.shields.io/badge/LinkedIn-111821?style=for-the-badge&logo=linkedin&logoColor=B7A4FF" alt="LinkedIn"></a>
+    <a href="mailto:hessahmalmujally@gmail.com"><img src="https://img.shields.io/badge/Email-111821?style=for-the-badge&logo=gmail&logoColor=CED1FC" alt="Email"></a>
     <a href="https://github.com/Heaikyoraku?tab=repositories"><img src="https://img.shields.io/badge/Repositories-111821?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Repositories"></a>
   </p>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3200&pause=850&color=91EDC5&center=true&vCenter=true&width=800&height=32&lines=AI+Engineering+%7C+Multimodal+AI+%7C+Applied+ML;GenAI+%7C+Agentic+Systems+%7C+Data+Engineering" alt="Animated technical focus">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3200&pause=850&color=ABA0ED&center=true&vCenter=true&width=800&height=32&lines=AI+Engineering+%7C+Multimodal+AI+%7C+Applied+ML;GenAI+%7C+Agentic+Systems+%7C+Data+Engineering" alt="Animated technical focus">
 </div>
 
 ### > ABOUT
 
 AI Engineer in Riyadh, Saudi Arabia. My work spans **applied machine learning, generative and multimodal systems, research, and AI-powered products** — from EEG decoding experiments at KACST to building startup and software prototypes.
 
-### > STACK
+### > TECH STACK
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,postgres,fastapi,docker,git,githubactions,vscode&theme=dark&perline=10" alt="Python, PyTorch, TensorFlow, scikit-learn, PostgreSQL, FastAPI, Docker, Git, GitHub Actions, VS Code" />
   <p><sub>Python · PyTorch · TensorFlow · scikit-learn · SQL/PostgreSQL · FastAPI · Docker · Git/GitHub Actions</sub></p>
+</div>
+
+### > AI TOOLING
+
+<div align="center">
+  <img src="https://img.shields.io/badge/OpenAI-181B32?style=for-the-badge&logo=openai&logoColor=FFFFFF" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Claude-181B32?style=for-the-badge&logo=anthropic&logoColor=D5B9FF" alt="Claude" />
+  <img src="https://img.shields.io/badge/Hugging_Face-181B32?style=for-the-badge&logo=huggingface&logoColor=FFD66B" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Google_Colab-181B32?style=for-the-badge&logo=googlecolab&logoColor=FFB94E" alt="Google Colab" />
+  <p><sub>Exploring: Codex · Claude Code · Databricks · production MLOps</sub></p>
 </div>
 
 ### > FEATURED PROJECTS
