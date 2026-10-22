@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="220" viewBox="0 0 620 220" role="img">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0C0D1B"/><stop offset="1" stop-color="#201933"/></linearGradient><radialGradient id="halo"><stop stop-color="#AC84E5" stop-opacity=".21"/><stop offset="1" stop-color="#AC84E5" stop-opacity="0"/></radialGradient></defs>
+<style>.float{animation:float 4.7s ease-in-out infinite alternate}.pulse{animation:pulse 3s ease-in-out infinite alternate}.line{stroke-dasharray:5 12;animation:dash 9s linear infinite}.blink{animation:pulse 1.7s steps(2,end) infinite alternate}
+@keyframes float{to{transform:translateY(-7px)}}@keyframes pulse{to{opacity:.23}}@keyframes dash{to{stroke-dashoffset:-150}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="620" height="220" rx="14" fill="url(#bg)"/><ellipse cx="320" cy="107" rx="340" ry="120" fill="url(#halo)"/><path d="M18 19H602M18 201H602" stroke="#AC84E5" opacity=".15"/><path d="M30 34H47M30 34V51M590 185V168M590 185H573" stroke="#7DD6C5" opacity=".5" stroke-width="2"/>
+<defs><linearGradient id="m" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#91E2C8"/><stop offset=".52" stop-color="#A59AED"/><stop offset="1" stop-color="#CC91E6"/></linearGradient></defs>
+<g class="float"><rect x="94" y="58" width="145" height="119" rx="7" fill="#202C41" stroke="#8BA9D7"/><path d="M95 157L141 108L165 131L190 80L238 136V177H94Z" fill="#8AD1C4" opacity=".68"/><circle cx="159" cy="89" r="15" fill="#D7B2E8"/></g>
+<g class="float"><rect x="306" y="42" width="190" height="143" rx="7" fill="url(#m)" opacity=".9"/><path d="M315 154C367 118 354 49 410 61C470 73 421 148 489 104" stroke="#242044" stroke-width="19" opacity=".27" fill="none"/><path d="M337 173L392 108L451 174" stroke="#F8ECFA" stroke-width="4" fill="none" opacity=".6"/></g>
+<path d="M244 117h53M286 110l11 7-11 7" stroke="#DAA6E7" stroke-width="2" fill="none"/><text x="33" y="43" fill="#AB9ACF" font-family="monospace" font-size="12" letter-spacing="2">EMOTION / ART</text>
+</svg>
