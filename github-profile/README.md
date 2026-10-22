@@ -1,107 +1,102 @@
 <div align="center">
-  <img src="./assets/hero.svg" alt="Hessah AlMujally — AI Engineer" width="100%" />
+  <img src="./assets/hero.svg" width="100%" alt="Hessah AlMujally — AI Engineer; indigo generative-art editorial cover"/>
   <p>
-    <a href="https://www.linkedin.com/in/hessahmalmujally/"><img src="https://img.shields.io/badge/LinkedIn-13182C?style=for-the-badge&logo=linkedin&logoColor=9FB9FF" alt="LinkedIn" /></a>
-    <a href="mailto:hessahmalmujally@gmail.com"><img src="https://img.shields.io/badge/Email-13182C?style=for-the-badge&logo=gmail&logoColor=C0B0FF" alt="Email" /></a>
-    <a href="https://github.com/Heaikyoraku?tab=repositories"><img src="https://img.shields.io/badge/Repositories-13182C?style=for-the-badge&logo=github&logoColor=E3E6FF" alt="Repositories" /></a>
+    <a href="https://www.linkedin.com/in/hessahmalmujally/"><img src="https://img.shields.io/badge/LinkedIn-111327?style=flat-square&logo=linkedin&logoColor=BBAAFF" alt="LinkedIn" /></a>
+    <a href="mailto:hessahmalmujally@gmail.com"><img src="https://img.shields.io/badge/Email-111327?style=flat-square&logo=gmail&logoColor=BBAAFF" alt="Email" /></a>
+    <a href="https://github.com/Heaikyoraku?tab=repositories"><img src="https://img.shields.io/badge/All_repositories-111327?style=flat-square&logo=github&logoColor=BBAAFF" alt="All repositories" /></a>
   </p>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3200&pause=900&color=A69BEE&center=true&vCenter=true&width=800&height=32&lines=Machine+Learning+%2F+Generative+AI+%2F+Multimodal;AI+Engineering+%2F+Data+Systems+%2F+MLOps" alt="Animated technical focus" />
 </div>
 
-### 01 / ABOUT
+AI Engineer working across **machine learning, multimodal systems, and generative AI**. My experience connects applied research at KACST, product development, and software engineering.
 
-AI Engineer based in Riyadh, with experience in **machine learning, multimodal AI, generative systems, and applied research**. My work spans EEG-to-text research at KACST, AI products, and software prototypes.
-
-### 02 / TOOLKIT
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,postgres,fastapi,docker,git,githubactions,vscode&theme=dark&perline=10" alt="Python, PyTorch, TensorFlow, scikit-learn, PostgreSQL, FastAPI, Docker, Git, GitHub Actions and VS Code" />
-  <p>
-    <img src="https://img.shields.io/badge/OpenAI-151A31?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
-    <img src="https://img.shields.io/badge/Claude-151A31?style=flat-square&logo=anthropic&logoColor=C0AEFF" alt="Claude" />
-    <img src="https://img.shields.io/badge/Hugging_Face-151A31?style=flat-square&logo=huggingface&logoColor=FFD45B" alt="Hugging Face" />
-    <img src="https://img.shields.io/badge/Gemini-151A31?style=flat-square&logo=googlegemini&logoColor=9DBAFF" alt="Gemini" />
-    <img src="https://img.shields.io/badge/LangChain-151A31?style=flat-square&logo=langchain&logoColor=B7A8FF" alt="LangChain" />
-  </p>
-  <sub>Currently exploring: Codex · Claude Code · Databricks · MLOps</sub>
-</div>
-
-### 03 / SELECTED WORK
+### Selected work
 
 <table>
-<tr>
-  <td width="50%" valign="top">
-    <a href="./work/emora.md"><b>EMORA ↗</b></a><br />
-    <sub>Multimodal emotion recognition and personalized Arabic creative content. Graduation project.</sub><br /><br />
-    <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow&theme=dark" height="30" alt="Python, PyTorch, TensorFlow" /><br />
-    <sub>EEG · Eye Tracking · Multimodal ML · SDXL · Gemini</sub>
-  </td>
-  <td width="50%" valign="top">
-    <a href="./work/eeg-to-text.md"><b>EEG-TO-TEXT / KACST ↗</b></a><br />
-    <sub>Research on EEG spatial coverage, frequency bands, and language transfer. ICDR 2026 poster.</sub><br /><br />
-    <img src="https://skillicons.dev/icons?i=py,pytorch&theme=dark" height="30" alt="Python, PyTorch" /><br />
-    <sub>EEG · Deep Learning · LLMs · Research Evaluation</sub>
-  </td>
-</tr>
-<tr>
-  <td width="50%" valign="top">
-    <a href="https://github.com/Heaikyoraku/Emotion2Art_Pipeline"><b>EMOTION2ART ↗</b></a><br />
-    <sub>Fine-tuned text emotion classifier paired with image generation and Gradio.</sub><br /><br />
-    <img src="https://skillicons.dev/icons?i=py,pytorch&theme=dark" height="30" alt="Python, PyTorch" /><br />
-    <sub>DistilBERT · Hugging Face · Stable Diffusion</sub>
-  </td>
-  <td width="50%" valign="top">
-    <a href="https://github.com/Heaikyoraku/Booking-agent"><b>BOOKING AGENT / SDA ↗</b></a><br />
-    <sub>Team-built conversational event-booking demo from the Agentic AI Bootcamp.</sub><br /><br />
-    <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,nextjs&theme=dark" height="30" alt="Python, FastAPI, PostgreSQL, Next.js" /><br />
-    <sub>AI Agents · Backend APIs · Booking Workflows</sub>
-  </td>
-</tr>
-<tr>
-  <td width="50%" valign="top">
-    <a href="https://github.com/Heaikyoraku/ArtifyAI"><b>ARTIFYAI ↗</b></a><br />
-    <sub>Image restoration and structure-guided generative stylization.</sub><br /><br />
-    <img src="https://skillicons.dev/icons?i=py,pytorch&theme=dark" height="30" alt="Python, PyTorch" /><br />
-    <sub>CodeFormer · CLIP · ControlNet · Diffusion</sub>
-  </td>
-  <td width="50%" valign="top">
-    <a href="https://github.com/Heaikyoraku/Insiyab"><b>INSIYAB ↗</b></a><br />
-    <sub>Natural-language metro crowding prototype using synthetic transit data.</sub><br /><br />
-    <img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn&theme=dark" height="30" alt="Python, TensorFlow, scikit-learn" /><br />
-    <sub>NLP · LSTM · Data Analytics · Gradio</sub>
-  </td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="./work/eeg-to-text.md"><b>EEG-to-Text / KACST ↗</b></a><br>
+      <sub>Research on spatial and frequency selection in EEG decoding, including Arabic-language experiments. Presented at ICDR 2026.</sub><br><br>
+      <img src="https://skillicons.dev/icons?i=py,pytorch&theme=dark" height="30" alt="Python, PyTorch"><br>
+      <sub>Deep Learning · Signal Processing · LLMs</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="./work/emora.md"><b>Emora ↗</b></a><br>
+      <sub>Multimodal emotion recognition paired with personalized Arabic stories, art, and voice. Graduation team project.</sub><br><br>
+      <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow&theme=dark" height="30" alt="Python, PyTorch, TensorFlow"><br>
+      <sub>EEG · Eye Tracking · Multimodal ML · GenAI</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Heaikyoraku/Booking-agent"><b>Booking Agent ↗</b></a><br>
+      <sub>Agentic AI bootcamp team capstone: conversational event-booking prototype and backend services.</sub><br><br>
+      <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,nextjs&theme=dark" height="30" alt="Python, FastAPI, PostgreSQL, Next.js"><br>
+      <sub>Agent Workflows · API Design · SQL</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Heaikyoraku/Emotion2Art_Pipeline"><b>Emotion2Art ↗</b></a><br>
+      <sub>Fine-tuned text emotion classifier integrated with diffusion-based image generation and a Gradio demo.</sub><br><br>
+      <img src="https://skillicons.dev/icons?i=py,pytorch&theme=dark" height="30" alt="Python, PyTorch"><br>
+      <sub>DistilBERT · Hugging Face · Stable Diffusion</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Heaikyoraku/ArtifyAI"><b>ArtifyAI ↗</b></a><br>
+      <sub>Image restoration and controlled stylization using pretrained vision and diffusion models.</sub><br><br>
+      <img src="https://skillicons.dev/icons?i=py,pytorch&theme=dark" height="30" alt="Python, PyTorch"><br>
+      <sub>CodeFormer · CLIP · ControlNet</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Heaikyoraku/Insiyab"><b>Insiyab ↗</b></a><br>
+      <sub>Natural-language interface for simulated Riyadh Metro congestion classification.</sub><br><br>
+      <img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn&theme=dark" height="30" alt="Python, TensorFlow, scikit-learn"><br>
+      <sub>NLP · LSTM · Synthetic Data · Gradio</sub>
+    </td>
+  </tr>
 </table>
 
+### Toolkit
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,postgres,fastapi,docker,git,githubactions,vscode&theme=dark&perline=10" alt="Python, PyTorch, TensorFlow, scikit-learn, PostgreSQL, FastAPI, Docker, Git, GitHub Actions, VS Code"/>
+  <p>
+    <img src="https://img.shields.io/badge/OpenAI-17182E?style=flat-square&logo=openai&logoColor=F4F3FA" alt="OpenAI" />
+    <img src="https://img.shields.io/badge/Claude-17182E?style=flat-square&logo=anthropic&logoColor=D6B6E5" alt="Claude" />
+    <img src="https://img.shields.io/badge/Hugging_Face-17182E?style=flat-square&logo=huggingface&logoColor=FFD570" alt="Hugging Face" />
+    <img src="https://img.shields.io/badge/Gemini-17182E?style=flat-square&logo=googlegemini&logoColor=AAA7FF" alt="Gemini" />
+    <img src="https://img.shields.io/badge/LangChain-17182E?style=flat-square&logo=langchain&logoColor=ACA6ED" alt="LangChain" />
+  </p>
+  <sub>Exploring further: Codex · Claude Code · Databricks · MLOps</sub>
+</div>
+
 <details>
-  <summary><b>+ MORE PROJECTS</b></summary>
-  <br />
+  <summary><b>More projects & experiments</b></summary>
+  <br>
   <table>
-    <tr><td><a href="./work/dhallaty.md">Dhallaty — ضالتي</a></td><td>AI startup · Computer Vision · Product Engineering</td></tr>
-    <tr><td><a href="./work/easepark.md">EasePark</a></td><td>Smart Parking · Arduino · IoT</td></tr>
-    <tr><td><a href="https://github.com/Heaikyoraku/National-Happiness-Prediction">National Happiness Prediction</a></td><td>Data Analysis · Regression · scikit-learn</td></tr>
-    <tr><td><a href="./work/cybersecurity-ml.md">AI for Cybersecurity</a></td><td>Feature Selection · Classification · Preprocessing</td></tr>
-    <tr><td><a href="./work/industrial-analytics.md">Industrial Analytics</a></td><td>IIoT · Manufacturing KPIs · OEE</td></tr>
+    <tr><td><a href="./work/dhallaty.md">Dhallaty</a></td><td>AI product · Computer Vision · Startup Engineering</td></tr>
+    <tr><td><a href="./work/easepark.md">EasePark</a></td><td>Arduino · IoT · Smart Parking</td></tr>
+    <tr><td><a href="https://github.com/Heaikyoraku/National-Happiness-Prediction">National Happiness Prediction</a></td><td>EDA · Regression · scikit-learn</td></tr>
+    <tr><td><a href="./work/cybersecurity-ml.md">AI for Cybersecurity</a></td><td>Feature Selection · Classification</td></tr>
+    <tr><td><a href="./work/industrial-analytics.md">Industrial Analytics</a></td><td>IIoT · OEE · Manufacturing Analytics</td></tr>
   </table>
 </details>
 
-### 04 / IN PROGRESS
+### In progress
 
 <table>
 <tr>
   <td width="50%" valign="top">
-    <b>AGENTIC EVENT BOOKING PLATFORM</b><br />
-    <sub>Independent backend and data-engineering rebuild — separate from the SDA capstone.</sub><br /><br />
-    <img src="https://skillicons.dev/icons?i=py,postgres,fastapi,docker&theme=dark" height="30" alt="Python, PostgreSQL, FastAPI, Docker" /><br />
-    <sub>SQL · Transactions · APIs · Testing · Agents</sub>
+    <b>Agentic Event Booking Platform</b><br>
+    <sub>Independently rebuilding the booking concept to deepen backend, data and AI engineering skills.</sub><br><br>
+    <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,docker&theme=dark" height="30" alt="Python, FastAPI, PostgreSQL, Docker"><br>
+    <sub>Transactions · Testing · Agents · Data Pipelines</sub>
   </td>
   <td width="50%" valign="top">
-    <a href="./work/agent-content-writer.md"><b>AGENT CONTENT WRITER ↗</b></a><br />
-    <sub>Private GitHub-to-Arabic-draft automation workbench.</sub><br /><br />
-    <img src="https://skillicons.dev/icons?i=py,githubactions,docker&theme=dark" height="30" alt="Python, GitHub Actions, Docker" /><br />
-    <sub>Claude API · Automation · CI Workflows</sub>
+    <a href="./work/agent-content-writer.md"><b>Agent Content Writer ↗</b></a><br>
+    <sub>Private automation project that converts GitHub activity into Arabic content drafts.</sub><br><br>
+    <img src="https://skillicons.dev/icons?i=py,docker,githubactions&theme=dark" height="30" alt="Python, Docker, GitHub Actions"><br>
+    <sub>API Integration · Claude · Automation</sub>
   </td>
 </tr>
 </table>
-
-<div align="center"><sub>Riyadh, Saudi Arabia · <a href="https://github.com/Heaikyoraku?tab=repositories">All repositories</a></sub></div>
